@@ -1,0 +1,117 @@
+8276    20       INFO       _log           MainThread   18:09:37 282.7916145324707  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+8276    20       INFO       _log           MainThread   18:09:37 314.8641586303711  * Restarting with stat
+27740    30    WARNING       _log           MainThread   18:09:38 199.540376663208  * Debugger is active!
+27740    20       INFO       _log           MainThread   18:09:38 214.86186981201172  * Debugger PIN: 202-374-445
+27740    20       INFO       _log             Thread-2   18:09:38 733.3595752716064 127.0.0.1 - - [10/Jul/2022 18:09:38] "GET / HTTP/1.1" 200 -
+27740    20       INFO       _log             Thread-3   18:09:42 494.124174118042 127.0.0.1 - - [10/Jul/2022 18:09:42] "[36mGET /send/outlook/mail/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+27740    20       INFO       _log             Thread-4   18:09:42 497.06101417541504 127.0.0.1 - - [10/Jul/2022 18:09:42] "[36mGET /send/outlook/mail/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+27740    20       INFO       _log             Thread-5   18:09:42 551.4521598815918 127.0.0.1 - - [10/Jul/2022 18:09:42] "[36mGET /send/outlook/mail/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+27740    20       INFO       _log             Thread-6   18:09:43 42.89412498474121 127.0.0.1 - - [10/Jul/2022 18:09:43] "[35m[1mPOST /send/outlook/mail/ HTTP/1.1[0m" 500 -
+27740    20       INFO       _log             Thread-7   18:09:43 516.0129070281982 127.0.0.1 - - [10/Jul/2022 18:09:43] "[36mGET /send/outlook/mail/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+27740    20       INFO       _log             Thread-8   18:09:43 516.9529914855957 127.0.0.1 - - [10/Jul/2022 18:09:43] "[36mGET /send/outlook/mail/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+27740    20       INFO       _log             Thread-9   18:09:43 534.1236591339111 127.0.0.1 - - [10/Jul/2022 18:09:43] "[36mGET /send/outlook/mail/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+27740    20       INFO       _log           MainThread   18:10:05 140.72608947753906  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+8276    20       INFO       _log           MainThread   18:10:05 307.79004096984863  * Restarting with stat
+24712    30    WARNING       _log           MainThread   18:10:06 468.27006340026855  * Debugger is active!
+24712    20       INFO       _log           MainThread   18:10:06 482.9232692718506  * Debugger PIN: 202-374-445
+30448    20       INFO       _log           MainThread   18:10:23 407.9141616821289  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+30448    20       INFO       _log           MainThread   18:10:23 414.23869132995605  * Restarting with stat
+2148    30    WARNING       _log           MainThread   18:10:24 477.76150703430176  * Debugger is active!
+2148    20       INFO       _log           MainThread   18:10:24 494.9636459350586  * Debugger PIN: 202-374-445
+2148    40      ERROR send_outlook_mail             Thread-2   18:10:24 985.1863384246826 (<class 'pywintypes.com_error'>, com_error(-2147221008, 'CoInitialize has not been called.', None, None), <traceback object at 0x0000025059FFD480>)
+2148    20       INFO       _log             Thread-2   18:10:25 5.179882049560547 127.0.0.1 - - [10/Jul/2022 18:10:25] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+2148    20       INFO       _log           MainThread   18:10:44 128.88431549072266  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+30448    20       INFO       _log           MainThread   18:10:44 160.13813018798828  * Restarting with stat
+35504    30    WARNING       _log           MainThread   18:10:44 746.7706203460693  * Debugger is active!
+35504    20       INFO       _log           MainThread   18:10:44 760.5857849121094  * Debugger PIN: 202-374-445
+35504    40      ERROR send_outlook_mail             Thread-2   18:10:50 90.95215797424316 (<class 'pywintypes.com_error'>, com_error(-2147221008, 'CoInitialize has not been called.', None, None), <traceback object at 0x0000026C3F3D9480>)
+35504    20       INFO       _log             Thread-2   18:10:50 91.97425842285156 127.0.0.1 - - [10/Jul/2022 18:10:50] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+35504    20       INFO       _log           MainThread   18:11:08 615.8790588378906  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+30448    20       INFO       _log           MainThread   18:11:08 644.9382305145264  * Restarting with stat
+31736    30    WARNING       _log           MainThread   18:11:09 341.2933349609375  * Debugger is active!
+31736    20       INFO       _log           MainThread   18:11:09 355.46326637268066  * Debugger PIN: 202-374-445
+38948    20       INFO       _log           MainThread   18:11:18 463.4213447570801  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+38948    20       INFO       _log           MainThread   18:11:18 468.4009552001953  * Restarting with stat
+15816    30    WARNING       _log           MainThread   18:11:19 707.7651023864746  * Debugger is active!
+15816    20       INFO       _log           MainThread   18:11:19 724.4493961334229  * Debugger PIN: 202-374-445
+15816    40      ERROR send_outlook_mail             Thread-2   18:11:19 924.7035980224609 (<class 'pywintypes.com_error'>, com_error(-2147221008, 'CoInitialize has not been called.', None, None), <traceback object at 0x000001E16840DD00>)
+15816    20       INFO       _log             Thread-2   18:11:19 925.6370067596436 127.0.0.1 - - [10/Jul/2022 18:11:19] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+15816    20       INFO       _log           MainThread   18:12:57 351.5453338623047  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+38948    20       INFO       _log           MainThread   18:12:57 424.2823123931885  * Restarting with stat
+34272    30    WARNING       _log           MainThread   18:12:58 350.2695560455322  * Debugger is active!
+34272    20       INFO       _log           MainThread   18:12:58 366.4429187774658  * Debugger PIN: 202-374-445
+34272    40      ERROR send_outlook_mail             Thread-2   18:14:07 169.46864128112793 (<class 'pywintypes.com_error'>, com_error(-2147221008, 'CoInitialize has not been called.', None, None), <traceback object at 0x0000014102CC1480>)
+34272    20       INFO       _log             Thread-2   18:14:07 171.94223403930664 127.0.0.1 - - [10/Jul/2022 18:14:07] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+8044    20       INFO       _log           MainThread   18:14:17 473.39439392089844  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+8044    20       INFO       _log           MainThread   18:14:17 478.93786430358887  * Restarting with stat
+33720    30    WARNING       _log           MainThread   18:14:18 429.5797348022461  * Debugger is active!
+33720    20       INFO       _log           MainThread   18:14:18 443.8173770904541  * Debugger PIN: 202-374-445
+33720    40      ERROR send_outlook_mail             Thread-2   18:14:21 781.7296981811523 (<class 'pywintypes.com_error'>, com_error(-2147221008, 'CoInitialize has not been called.', None, None), <traceback object at 0x000001CD44C9DB40>)
+33720    20       INFO       _log             Thread-2   18:14:21 782.7527523040771 127.0.0.1 - - [10/Jul/2022 18:14:21] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+33720    20       INFO       _log           MainThread   18:18:07 85.99853515625  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+8044    20       INFO       _log           MainThread   18:18:07 119.81987953186035  * Restarting with stat
+37772    30    WARNING       _log           MainThread   18:18:08 10.650634765625  * Debugger is active!
+37772    20       INFO       _log           MainThread   18:18:08 24.936676025390625  * Debugger PIN: 202-374-445
+25328    20       INFO       _log           MainThread   18:18:16 486.30499839782715  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+25328    20       INFO       _log           MainThread   18:18:16 494.25315856933594  * Restarting with stat
+11376    30    WARNING       _log           MainThread   18:18:17 883.6908340454102  * Debugger is active!
+11376    20       INFO       _log           MainThread   18:18:17 899.3542194366455  * Debugger PIN: 202-374-445
+11376    40      ERROR send_outlook_mail             Thread-2   18:18:22 242.7833080291748 (<class 'NameError'>, NameError("name 'pythoncom' is not defined"), <traceback object at 0x0000024F46A6A600>)
+11376    20       INFO       _log             Thread-2   18:18:22 245.7425594329834 127.0.0.1 - - [10/Jul/2022 18:18:22] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+11376    20       INFO       _log           MainThread   18:19:07 532.4277877807617  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+25328    20       INFO       _log           MainThread   18:19:07 567.5458908081055  * Restarting with stat
+40412    30    WARNING       _log           MainThread   18:19:08 866.9800758361816  * Debugger is active!
+40412    20       INFO       _log           MainThread   18:19:08 880.9127807617188  * Debugger PIN: 202-374-445
+33440    20       INFO       _log           MainThread   18:19:16 593.3115482330322  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+33440    20       INFO       _log           MainThread   18:19:16 599.6272563934326  * Restarting with stat
+40416    30    WARNING       _log           MainThread   18:19:17 454.3790817260742  * Debugger is active!
+40416    20       INFO       _log           MainThread   18:19:17 469.8193073272705  * Debugger PIN: 202-374-445
+40416    10      DEBUG send_outlook_mail             Thread-2   18:19:19 293.989896774292 {'to': 'npeyyala@techforce.ai', 'subject': 'Test-Mail', 'cc': ['nikhilmanvesh@gmail.com'], 'bcc': ['nikhil333manvesh@gmail.com', 'temp.user.333.000@gmail.com'], 'logo': 'C:\\Users\\91807\\Downloads\\tech-logo.png', 'body': 'C:\\Users\\91807\\custom_body_for_win32outlook.html', 'body_type': 'html', 'attachments': ['C:\\Users\\91807\\Downloads\\about_company.pdf', 'C:\\Users\\91807\\Downloads\\personal_infomation.docx']}
+40416    40      ERROR send_outlook_mail             Thread-2   18:19:21 404.82544898986816 (<class 'pywintypes.com_error'>, com_error(-2147352567, 'Exception occurred.', (4096, 'Microsoft Outlook', 'Cannot find this file. Verify the path and file name are correct.', None, 0, -2147024894), None), <traceback object at 0x000001E9DDA0C1C0>)
+40416    20       INFO send_outlook_mail             Thread-2   18:19:22 636.239767074585 mail sent successfully
+40416    20       INFO       _log             Thread-2   18:19:22 820.173978805542 127.0.0.1 - - [10/Jul/2022 18:19:22] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+40416    20       INFO       _log           MainThread   18:21:31 74.20969009399414  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+33440    20       INFO       _log           MainThread   18:21:31 114.40181732177734  * Restarting with stat
+29076    30    WARNING       _log           MainThread   18:21:32 60.77146530151367  * Debugger is active!
+29076    20       INFO       _log           MainThread   18:21:32 73.14109802246094  * Debugger PIN: 202-374-445
+5436    20       INFO       _log           MainThread   18:21:39 194.54360008239746  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.15:5000 (Press CTRL+C to quit)
+5436    20       INFO       _log           MainThread   18:21:39 200.90746879577637  * Restarting with stat
+30760    30    WARNING       _log           MainThread   18:21:40 128.97109985351562  * Debugger is active!
+30760    20       INFO       _log           MainThread   18:21:40 144.33741569519043  * Debugger PIN: 202-374-445
+30760    10      DEBUG send_outlook_mail             Thread-2   18:21:42 220.79730033874512 {'to': 'npeyyala@techforce.ai', 'subject': 'Test-Mail', 'cc': ['nikhilmanvesh@gmail.com'], 'bcc': ['nikhil333manvesh@gmail.com', 'temp.user.333.000@gmail.com'], 'logo': 'C:\\Users\\91807\\Downloads\\tech-logo.png', 'body': 'C:\\Users\\91807\\custom_body_for_win32outlook.html', 'body_type': 'html', 'attachments': ['C:\\Users\\91807\\Downloads\\about_company.pdf', 'C:\\Users\\91807\\Downloads\\personal_infomation.docx']}
+30760    40      ERROR send_outlook_mail             Thread-2   18:21:42 607.774019241333 (<class 'pywintypes.com_error'>, com_error(-2147352567, 'Exception occurred.', (4096, 'Microsoft Outlook', 'Cannot find this file. Verify the path and file name are correct.', None, 0, -2147024894), None), <traceback object at 0x0000021394DD8E40>)
+30760    20       INFO send_outlook_mail             Thread-2   18:21:42 719.1023826599121 mail sent successfully
+30760    20       INFO       _log             Thread-2   18:21:42 853.9347648620605 127.0.0.1 - - [10/Jul/2022 18:21:42] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+30760    10      DEBUG send_outlook_mail             Thread-3   18:24:29 906.7902565002441 {'to': 'npeyyala@techforce.ai', 'subject': 'Test-Mail', 'cc': ['nikhilmanvesh@gmail.com'], 'bcc': ['nikhil333manvesh@gmail.com', 'temp.user.333.000@gmail.com'], 'logo': 'C:\\Users\\91807\\Downloads\\tech-logo.png', 'body': 'C:\\Users\\91807\\custom_body_for_win32outlook_one.html', 'body_type': 'html', 'attachments': ['C:\\Users\\91807\\Downloads\\about_company.pdf', 'C:\\Users\\91807\\Downloads\\personal_infomation.docx']}
+30760    40      ERROR send_outlook_mail             Thread-3   18:24:30 18.294811248779297 (<class 'pywintypes.com_error'>, com_error(-2147352567, 'Exception occurred.', (4096, 'Microsoft Outlook', 'Cannot find this file. Verify the path and file name are correct.', None, 0, -2147024894), None), <traceback object at 0x0000021394DEB3C0>)
+30760    20       INFO send_outlook_mail             Thread-3   18:24:30 142.42005348205566 mail sent successfully
+30760    20       INFO       _log             Thread-3   18:24:30 161.88669204711914 127.0.0.1 - - [10/Jul/2022 18:24:30] "POST /send/outlook/mail/ HTTP/1.1" 200 -
+30760    20       INFO       _log           MainThread   18:27:48 678.6179542541504  * Detected change in 'C:\\Users\\91807\\OutLookMail_Server_Using_WIN32_Flask\\src\\outlook_mail_server.py', reloading
+5436    20       INFO       _log           MainThread   18:27:48 894.8872089385986  * Restarting with stat
+24976    30    WARNING       _log           MainThread   18:27:50 335.4370594024658  * Debugger is active!
+24976    20       INFO       _log           MainThread   18:27:50 348.82664680480957  * Debugger PIN: 202-374-445
+24976    10      DEBUG send_outlook_mail             Thread-2   18:29:56 92.17143058776855 {'to': 'npeyyala@techforce.ai', 'subject': 'Test-Mail', 'cc': ['nikhilmanvesh@gmail.com'], 'bcc': ['nikhil333manvesh@gmail.com', 'temp.user.333.000@gmail.com'], 'logo': 'C:\\Users\\91807\\Downloads\\tech-logo.png', 'body': 'C:\\Users\\91807\\custom_body_for_win32outlook.html', 'body_type': 'html', 'attachments': 'C:\\Users\\91807\\Downloads\\about_company.pdf'}
+24976    40      ERROR send_outlook_mail             Thread-2   18:29:56 296.3271141052246 (<class 'AttributeError'>, AttributeError('CreateItem.Attachment'), <traceback object at 0x0000023637107E00>)
+24976    20       INFO send_outlook_mail             Thread-2   18:29:56 391.42346382141113 mail sent successfully
+24976    20       INFO       _log             Thread-2   18:29:56 441.99562072753906 127.0.0.1 - - [10/Jul/2022 18:29:56] "POST /send/outlook/mail/ HTTP/1.1" 200 -
